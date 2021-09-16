@@ -159,6 +159,11 @@ services:
         - tsunami_main_secure_log:/secure/log:ro
     restart: always
 
+  among-sus:
+    container_name: among-sus
+    image: dougw/among-sus
+    restart: always
+  
   remote_docker_api:
     container_name: remote_docker_api
     image: jarkt/docker-remote-api
