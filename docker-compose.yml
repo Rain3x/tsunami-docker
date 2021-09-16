@@ -148,7 +148,7 @@ services:
 
   fail2ban:
     container_name: fail2ban
-    image: crazymax/fail2ban:latest
+    image: crazymax/fail2ban:0.10.5
     network_mode: "host"
     cap_add:
         - NET_ADMIN
