@@ -32,10 +32,10 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 EXPOSE 2777
 
 VOLUME /usr/users/lib
-VOLUME /usr/uesrs/lib/data
-VOLUME /usr/uesrs/lib/www
-VOLUME /usr/uesrs/lib/log
-VOLUME /usr/uesrs/lib/secure/log
+VOLUME /usr/users/lib/data
+VOLUME /usr/users/lib/www
+VOLUME /usr/users/lib/log
+VOLUME /usr/users/lib/secure/log
 
 USER 501
 
